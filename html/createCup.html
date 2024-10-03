@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Cup</title>
+    <link rel="stylesheet" href="../css/createCup.css" />
+  </head>
+  <body>
+    <div id="createCupModalContent" class="modal-content">
+      <div class="modal-header">
+        <p class="title-crt">Create Cup</p>
+        <button class="close-btn"></button> 
+      </div>
+      <div class="modal-body">
+        <p class="nameOption">Cup name:</p>
+        <input type="text" id="cupName" class="input-field"  />
+        
+        <p class="nameOption">Cup volume:</p>
+        <input type="number" id="cupVolume" class="input-field" />
+        
+        <p class="nameOption">Cup material:</p>
+        <input type="text" id="cupMaterial" class="input-field" />
+        
+        <p>
+          <label class="nameOption" for="cupColor">Cup color:</label>
+          <p>
+          <select id="cupColor" class="select-field">
+            <option value="green">green</option>
+            <option value="brown">brown</option>
+            <option value="transparent">transparent</option>
+            <option value="white">white</option>
+            <option value="black">black</option>
+            <option value="red">red</option>
+            <option value="other">other</option>
+          </select>
+          </p>
+        </p>
+        <button id="createBtn" class="btn btn-primary">Create</button>
+      </div>
+    </div>
+  </body>
+</html>
+

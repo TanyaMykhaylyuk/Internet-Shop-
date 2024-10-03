@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet-shop</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <button class="my-cups">My Cups</button>
+        <button class="all-cup">All Cups</button>
+        <button class="create-cup">Create Cup</button>
+        
+      </div>
+      <div class="header-right">
+        <nav class="nav">
+          <input
+            type="text"
+            placeholder="  Type something..."
+            class="search-input"
+          />
+        </nav>
+        <button class="btn search-btn">Search</button>
+        <button class="btn cancel-btn">Cancel</button>
+      </div>
+    </header>
+<main>
+    <div class="main-content">
+      <div class="part-right">
+        <div class="cup-management">
+          <div class="manage-options">
+            <h4 class="manage-title">Manage cups</h4>
+            <p class="sort-text">Sort by volume:</p>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <hr class="section-divider" />
+          <div class="count-volume">
+            <h4 class="count-title">Count total volume:</h4>
+           
+            <button class="count-btn">Count</button>
+            
+            <p class="total-volume-text">Total volume: <p class="total-volume-numb"><p></p>
+          </div>
+        </div>
+      </div>
+      <div class="part-left">
+   
+        <div class="cup-item">
+          <img src="../img/cup1.webp" alt="cup1"  class="cup-image">
+          <p class="cup-name">Cup for children "Mandalorian"</p>
+          <p class="cup-volume">Volume: 300</p>
+          <p class="cup-material">Material: pottery</p>
+          <p class="cup-color">Color: green</p>
+          <button class="edit-btn">Edit</button>
+         
+        </div>
+  
+       
+        <div class="cup-item">
+          <img src="../img/cup2.webp" alt="cup2"  class="cup-image">
+          <p class="cup-name">Cup for children "Teddy bear"</p>
+          <p class="cup-volume">Volume: 500</p>
+          <p class="cup-material">Material: ceramics</p>
+          <p class="cup-color">Color: brown</p>
+          <button class="edit-btn">Edit</button>
+          
+        </div>
+  
+        
+        <div class="cup-item">
+          <img src="../img/cup3.webp" alt="cup3"  class="cup-image">
+          <p class="cup-name">Cup for kitchen</p>
+          <p class="cup-volume">Volume: 400</p>
+          <p class="cup-material">Material: glass</p>
+          <p class="cup-color">Color: transparent</p>
+          <button class="edit-btn">Edit</button>
+          
+        </div>
+  
+        
+        <div class="cup-item">
+          <img src="../img/cup4.webp" alt="cup4"  class="cup-image">
+          <p class="cup-name">Cup for kitchen</p>
+          <p class="cup-volume">Volume: 400</p>
+          <p class="cup-material">Material: glass</p>
+          <p class="cup-color">Color: transparent</p>
+          <button class="edit-btn">Edit</button>
+          
+        </div>
+  
+      
+        <div class="cup-item">
+          <img src="../img/cup5.jpg" alt="cup5"  class="cup-image">
+          <p class="cup-name">Cup for kitchen</p>
+          <p class="cup-volume">Volume: 400</p>
+          <p class="cup-material">Material: ceramics</p>
+          <p class="cup-color">Color: white</p>
+          <button class="edit-btn">Edit</button>
+          
+        </div>
+  
+        
+        <div class="cup-item">
+          <img src="../img/cup6.jpg" alt="cup6"  class="cup-image">
+          <p class="cup-name">Cup for kitchen</p>
+          <p class="cup-volume">Volume: 400</p>
+          <p class="cup-material">Material: ceramics</p>
+          <p class="cup-color">Color: white</p>
+          <button class="edit-btn">Edit</button>
+          
+        </div>
+
+
+        <div id="createCupModal" class="modal">
+          <div class="modal-content" id="modalContent">
+           
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+    <script src="../js/index.js"></script>
+
+    
+    
+
+    </main>
+  </body>
+  </html>

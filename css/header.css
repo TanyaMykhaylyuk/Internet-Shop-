@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px 20px;
+  background-color: #dbdfe4;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  border-radius: 15%;
+  border: 4px solid #4b4a4a;
+  width: 200px;
+}
+
+.my-cups {
+  font-weight: 800;
+}
+
+.btn {
+  background-color: rgb(245, 245, 245);
+  border-radius: 15%;
+}
+.search-btn {
+  border-color: rgb(146, 203, 236);
+  color: rgb(146, 203, 236);
+}
+.cancel-btn {
+  border-color: rgb(218, 83, 83);
+  color: rgb(218, 83, 83);
+}
+
+.my-cups{
+    border: 0cap;
+    background-color: #dbdfe4;
+}
+
+.create-cup{
+    border: 0cap;
+    background-color: #dbdfe4;
+}
+
+.all-cup{
+  border: 0cap;
+  background-color: #dbdfe4;
+}

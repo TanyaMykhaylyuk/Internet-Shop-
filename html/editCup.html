@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Cup</title>
+    <link rel="stylesheet" href="../css/editCup.css" />
+  </head>
+  <body>
+    <div id="editCupModalContent" class="editmodal-content">
+      <div class="editModalHeader">
+        <p class="edittitle-crt">Edit Cup</p>
+        <button class="editclose-btn"></button> 
+      </div>
+      <div class="editmodal-body">
+        <p class="editnameOption">Cup name:</p>
+        <input type="text" id="editcupName" class="editinput-field"  />
+        
+        <p class="editnameOption">Cup volume:</p>
+        <input type="number" id="editcupVolume" class="editinput-field" />
+        
+        <p class="editnameOption">Cup material:</p>
+        <input type="text" id="editcupMaterial" class="editinput-field" />
+        
+        <p class="editnameOption">Cup image:</p>
+<input type="file" id="editcupImage" class="editinput-field" accept="image/*" />
+
+        <p>
+          <label class="editnameOption" for="editcupColor">Cup color:</label>
+          <p>
+          <select id="editcupColor" class="editselect-field">
+            <option value="green">green</option>
+            <option value="brown">brown</option>
+            <option value="transparent">transparent</option>
+            <option value="white">white</option>
+            <option value="black">black</option>
+            <option value="red">red</option>
+            <option value="other">other</option>
+          </select>
+          </p>
+        </p>
+        <button id="editcreateBtn" class="editbtn editbtn-primary">Edit</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+
